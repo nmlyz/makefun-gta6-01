@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Bay — Open-World Crime Game</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #05081a; height: 100%; overflow: hidden; font-family: sans-serif; }
+  #wrap { display: flex; align-items: center; justify-content: center; height: 100vh; }
+  canvas { width: min(100vw, 177.78vh); height: min(100vh, 56.25vw); background: #0a0e1e; display: block; }
+  #hud { position: fixed; left: 10px; bottom: 8px; color: #9fb4d8; font: 12px sans-serif; opacity: .8; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="1280" height="720"></canvas></div>
+<script type="module" src="./src/main.js"></script>
+<script type="module" src="./src/shots.js"></script>
+</body>
+</html>
