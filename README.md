@@ -4,8 +4,7 @@
 
 # Neon Bay — a top-down open-world crime game
 
-An original open-world crime game built for make.fun's "Make GTA 6" bounty
-(gta6-01). Everything — city, characters, vehicles, names, art and rules — is
+An original open-world crime game. Everything — city, characters, vehicles, names, art and rules — is
 original; nothing is taken from any commercial game. It plays in a desktop
 browser straight from static files: no build step, no network, no libraries,
 just vanilla JavaScript and a canvas.
